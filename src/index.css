@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-josefin: 'Josefin Sans', sans-serif;
+    /* Font for title sections, clean and modern */
+    --font-nunito: 'Nunito', sans-serif;
+    /* Font for non-title sections, easy to read and versatile */
+    
+    --color-bg: #F7F3E9;
+    /* Light background: Warm cream that creates a natural, inviting canvas */
+    --color-bg-dark: #161820;
+    /* Dark background color: Deep blue-black for rich contrast in dark mode */
+    
+    --color-text: #2A2A2A;
+    /* Text color: Rich, dark gray for better readability, softer than black */
+    --color-text-dark: #E6E6EC;
+    /* Text color in dark mode: Softer gray to reduce eye strain while maintaining legibility */
+    
+    --color-title: #3E4E60;
+    /* Title color: Deep slate blue for sophisticated contrast against light backgrounds */
+    --color-title-dark: #D4E0EB;
+    /* Title color in dark mode: Soft blue-white for elegant highlighting on dark backgrounds */
+    
+     /*accent for contrast */
+  --color-accent: #A5683A;
+  /* Secondary accent: Warm amber to draw attention to key elements */
+  --color-accent-dark: #C88D60;
+  /* Secondary accent in dark mode: Golden caramel for warmth and focus */
+  }
